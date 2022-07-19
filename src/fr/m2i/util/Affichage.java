@@ -7,7 +7,7 @@ public class Affichage {
     public static void afficheMenuSelection(){
         separateur();
         formatLigne("                Choissez un type de combatant");
-        formatLigne("                "+FrontColor.EMMERAUDE.getValue()+"1"+FrontColor.RESET.getValue()+" : Guerrier");
+        formatLigne("                "+FrontColor.EMMERAUDE.getValue()+"1"+fr.m2i.util.FrontColor.RESET.getValue()+" : Guerrier");
         formatLigne("                "+FrontColor.EMMERAUDE.getValue()+"2"+FrontColor.RESET.getValue()+" : Sorcier");
         formatLigne("                "+FrontColor.EMMERAUDE.getValue()+"3"+FrontColor.RESET.getValue()+" : Soigneur");
     }

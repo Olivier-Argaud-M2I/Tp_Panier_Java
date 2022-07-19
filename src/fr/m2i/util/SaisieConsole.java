@@ -33,10 +33,10 @@ public class SaisieConsole {
         }
         catch (NumberFormatException e)
         {
-            Affichage.formatLigne("Veuillez saisir un nombre entre -2 147 483 648 et 2 147 483 647");
+//            Affichage.formatLigne("Veuillez saisir un nombre entre -2 147 483 648 et 2 147 483 647");
         }
         catch (IOException e){
-            Affichage.formatLigne("Erreur entrée");
+//            Affichage.formatLigne("Erreur entrée");
         }
         return null;
     }
@@ -66,7 +66,7 @@ public class SaisieConsole {
             return  this.getBuff().readLine();
         }
         catch (IOException e){
-            Affichage.formatLigne("Erreur entrée");
+//            Affichage.formatLigne("Erreur entrée");
         }
         return null;
     }

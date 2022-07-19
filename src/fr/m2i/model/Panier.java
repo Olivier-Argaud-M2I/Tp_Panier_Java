@@ -41,10 +41,6 @@ public class Panier implements Cloneable{
         return Arrays.equals(listeArticle, panier.listeArticle);
     }
 
-    @Override
-    public int hashCode() {
-        return Arrays.hashCode(listeArticle);
-    }
 
     @Override
     public Object clone() throws CloneNotSupportedException {
